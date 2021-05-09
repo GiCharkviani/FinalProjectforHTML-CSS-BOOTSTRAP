@@ -1,0 +1,272 @@
+/*ფონტები*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Monda&family=Parisienne&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+/*ფონტები, რომლებიც შემიძლია შემოვიტანო:
+
+font-family: 'Kalam', cursive;
+font-family: 'Monda', sans-serif;
+font-family: 'Parisienne', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Fredoka One', cursive;
+
+*/
+
+
+/*ვრცელდება მთლიან გვერდზე*/
+
+body {
+    background-image: url(./img/Flag_of_Poland.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+/*ჰედლაინი*/
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+    height: 80vh;
+}
+
+.carouselImage {
+    height: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    bottom: 30%;
+}
+
+.carousel {
+    margin-bottom: 1rem;
+    box-shadow: 1px 1px 10px 5px black;
+}
+
+.headLineTitle {
+    font-weight: bold;
+    color: #D22630;
+    text-shadow: 1px 1px 3px white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+}
+
+@media only screen and (min-width:200px) and (max-width:772px) {
+    .carousel,
+    .carousel-inner,
+    .carousel-item {
+        height: 40vh;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        bottom: 60%;
+    }
+    .headLineTitle {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width:772px) and (max-width:1000px) {
+    .carousel,
+    .carousel-inner,
+    .carousel-item {
+        height: 50vh;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        bottom: 50%;
+    }
+    .headLineTitle {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width:1000px) and (max-width:1500px) {
+    .carousel,
+    .carousel-inner,
+    .carousel-item {
+        height: 60vh;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        bottom: 40%;
+    }
+}
+
+
+/*პირველი ნავიგაცია*/
+
+.active .fa-landmark {
+    color: rgb(141, 153, 174);
+}
+
+.fa-database {
+    color: hsl(348, 50%, 47%);
+    text-shadow: 1px 1px 3px rgb(224, 220, 220);
+}
+
+.navbaria {
+    display: flex;
+    width: 10vw;
+}
+
+.navbara {
+    align-content: center;
+    list-style-type: none;
+}
+
+.chamokecili {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-flow: column;
+    list-style-type: none;
+}
+
+.togglera {
+    padding: 0;
+}
+
+#dasakeci {
+    width: 100%;
+}
+
+.fa-envelope,
+.fa-landmark,
+.fa-home,
+.bi-menu-up,
+.fa-caret-square-down,
+.fa-sign-out-alt {
+    color: hsl(348, 70%, 47%);
+    text-shadow: 1px 1px 3px rgb(224, 220, 220);
+    padding: 5px;
+    transition: .3s ease;
+}
+
+.fa-envelope:hover,
+.fa-landmark:hover,
+.fa-home:hover,
+.bi-menu-up:hover,
+.fa-caret-square-down:hover,
+.fa-sign-out-alt:hover {
+    color: rgb(237, 242, 244);
+}
+
+nav.navbara a {
+    padding: 0;
+}
+
+
+/*ისტორია*/
+
+.textura {
+    text-indent: 20px;
+}
+
+.theFirst {
+    font-family: 'Reggae One', cursive;
+    font-size: 2em;
+}
+
+
+/*ძირი*/
+
+.foot {
+    position: relative;
+    margin-bottom: 0;
+    background-color: hsl(348, 70%, 47%);
+    filter: saturate(90%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 1px 10px 5px black;
+    height: 100%;
+    width: 100vw;
+    opacity: 90%;
+}
+
+@media only screen and (min-width: 0) and (max-width: 1200px) {
+    .dissapear {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 0) and (max-width: 575px) {
+    .lista {
+        padding-left: 1rem!important;
+    }
+}
+
+.fuotera {
+    margin-top: 3rem;
+    padding-top: 1.3rem;
+}
+
+.fouteraBolo {
+    float: right;
+}
+
+.kontaqt {
+    text-decoration: none;
+    color: white;
+}
+
+.kontaqt:hover {
+    color: rgb(214, 121, 98);
+    outline: none;
+    text-decoration: none;
+}
+
+.fa-copyright {
+    color: white;
+}
+
+.fa-copyright:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.fa-user-tie {
+    color: rgb(154, 3, 30);
+}
+
+.fa-user-tie:hover {
+    color: rgb(6, 214, 160);
+    cursor: pointer;
+}
+
+.fa-instagram {
+    color: aquamarine;
+}
+
+.fa-instagram:hover {
+    color: rgb(131, 56, 236);
+}
+
+.list-group-item {
+    color: black;
+    font-family: 'Monda', sans-serif;
+}
+
+.list-group-item:hover {
+    color: rgb(210, 38, 48);
+}
+
+.listGroupMe:hover {
+    text-decoration: none;
+}
+
+.fa-file-code {
+    color: rgb(210, 38, 48);
+}
+
+.listGroupMe {
+    text-decoration: none;
+}

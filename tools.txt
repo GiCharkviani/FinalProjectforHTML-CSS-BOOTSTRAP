@@ -1,0 +1,20 @@
+https://www.w3schools.com/css/css3_images.asp
+https://mdbootstrap.com/docs/standard/navigation/navbar/#
+https://www.w3schools.com/cssref/css3_pr_filter.asp
+https://coolors.co/palettes/trending
+https://getbootstrap.com/docs/4.6/components/navbar/
+
+modulshi registraciis formis gawera
+
+icons:
+https://fontawesome.com/how-to-use/customizing-wordpress/snippets/setup-cdn-webfont
+
+https://icons.getbootstrap.com/?
+
+https://coolors.co/palettes/trending/orange
+
+pattern:
+https://www.w3schools.com/tags/att_input_pattern.asp
+
+polish flag colors:
+https://flagcolor.com/poland-flag-colors/
